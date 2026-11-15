@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp"
+    android:background="#F4F7FC">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🧠"
+        android:textSize="75sp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUIZ MASTER"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#172B4D"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Challenge Your Knowledge!"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textColor="#334E68"
+        android:gravity="center"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test your knowledge, answer exciting questions and discover how much you know."
+        android:textSize="16sp"
+        android:textColor="#627D98"
+        android:gravity="center"
+        android:lineSpacingExtra="6dp"
+        android:layout_marginBottom="35dp"/>
+
+    <Button
+        android:id="@+id/btnStartQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="START QUIZ"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2457A7"/>
+
+</LinearLayout>

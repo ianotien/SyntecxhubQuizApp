@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F7FC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUIZ MASTER"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#172B4D"
+            android:layout_marginBottom="25dp"/>
+
+        <TextView
+            android:id="@+id/tvQuestionNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 1 of 10"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#2457A7"
+            android:layout_marginBottom="12dp"/>
+
+        <ProgressBar
+            android:id="@+id/quizProgress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:max="10"
+            android:progress="1"
+            android:progressTint="#2457A7"
+            android:layout_marginBottom="35dp"/>
+        <TextView
+            android:id="@+id/tvTimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time left: 15s"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#2457A7"
+            android:gravity="end"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YOUR QUESTION"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="#627D98"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is the capital city of Kenya?"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:textColor="#172B4D"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginBottom="25dp"/>
+
+        <RadioGroup
+            android:id="@+id/rgOptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbOption1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A. Mombasa"
+                android:textSize="17sp"
+                android:textColor="#334E68"
+                android:padding="12dp"/>
+
+            <RadioButton
+                android:id="@+id/rbOption2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B. Nairobi"
+                android:textSize="17sp"
+                android:textColor="#334E68"
+                android:padding="12dp"/>
+
+            <RadioButton
+                android:id="@+id/rbOption3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C. Kisumu"
+                android:textSize="17sp"
+                android:textColor="#334E68"
+                android:padding="12dp"/>
+
+            <RadioButton
+                android:id="@+id/rbOption4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="D. Nakuru"
+                android:textSize="17sp"
+                android:textColor="#334E68"
+                android:padding="12dp"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tvFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="NEXT QUESTION"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2457A7"
+            android:layout_marginTop="25dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
